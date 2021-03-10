@@ -6,9 +6,13 @@ echo It\'s sad to see you go $varname
 echo
 # Ask the user for login details
 echo Plese Verify Before Uninstalling
-read -p 'Username: ' uservar
-read -sp 'Password: ' passvar
+# Read Password
+echo -n Password: 
+read -s termux-adb-uninstall
 echo
+# Run Command
+echo $password
+
 echo Thankyou $uservar We Will Start Uninstalling
 echo -e "\e[93mThis script will remove ADB & FastBoot Tools from Termux."
 echo
