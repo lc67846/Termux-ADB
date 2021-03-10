@@ -9,9 +9,9 @@ mkdir $PREFIX/tmp/adbtemp
 downpath="$PREFIX/tmp/adbtemp"
 wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin/adb -P $downpath/ -q
 echo -e "\e[32m[*] \e[34mDownloading binaries..."
-wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin/adb.bin -P $downpath/ -q
-wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin/fastboot -P $downpath/ -q
-wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin/fastboot-armeabi -P $downpath/ -q
+wget https://github.com/lc67846/Termux-ADB/raw/master/bin/adb.bin -P $downpath/ -q
+wget https://github.com/lc67846/Termux-ADB/raw/master/bin/fastboot -P $downpath/ -q
+wget https://github.com/lc67846/Termux-ADB/raw/master/bin/fastboot-armeabi -P $downpath/ -q
 echo -e "\e[32m[*] \e[34mCopying files to bin..."
 cp $downpath/* $PREFIX/bin
 echo -e "\e[32m[*] \e[34mSetting execution permissions..."
