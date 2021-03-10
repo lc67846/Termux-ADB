@@ -1,5 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
-
+# Ask the user for their name
+echo Hello, who am I talking to?
+read varname
+echo It\'s sad to see you go $varname
 echo
 echo -e "\e[93mThis script will remove ADB & FastBoot Tools from Termux."
 echo
