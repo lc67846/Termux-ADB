@@ -3,17 +3,7 @@
 echo Hello, who am I talking to?
 read varname
 echo It\'s sad to see you go $varname
-echo
-# Ask the user for login details
-echo Plese Verify Before Uninstalling
-# Read Password
-echo -n Password: 
-read -s termux-adb-uninstall
-echo
-# Run Command
-echo $password
-
-echo Thankyou $uservar We Will Start Uninstalling
+echo Thankyou $varname We Will Start Uninstalling
 echo -e "\e[93mThis script will remove ADB & FastBoot Tools from Termux."
 echo
 echo -e "\e[32m[*] \e[34mRemoving wrapper script..."
