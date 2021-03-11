@@ -27,13 +27,9 @@ echo -e "\e[32m[*] \e[34mCleaning up ADB & Fastboot Traces..."
 cd $directory
 rm -rf $downpath
 rm -rf InstallTools.sh
-echo
+echo Your Cool
 echo -e "\e[32mTools were successfully installed!\e[39m"
-echo
+echo Update Everyday
 
 apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && wget https://github.com/lc67846/Termux-ADB/raw/master/Welcome.sh -q && bash Welcome.sh
-echo -e "\e[32mWelcome To Termux ADB Version 1.1\e[39m"
-echo Whats New
-echo added logo 
-echo -e "\e[32mChanged Some Installtools.sh Text\e[39m" 
-display https://giphy.com/gifs/memecandy-fU4elxKlRsulB4Jy7w
+
