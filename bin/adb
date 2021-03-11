@@ -1,5 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/bash
-apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && wget https://github.com/lc67846/Termux-ADB/raw/master/bin/adb.sh -q && bash adb.sh
 dir="$(cd "$(dirname "$0")"; pwd)";
 
 export HOME=/data/data/com.termux/files/home/adbfiles;
